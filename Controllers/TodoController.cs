@@ -6,8 +6,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ASPNET_todo_api.Data;
+using ASPNET_todo_api.Models;
 
-namespace ASPNET_todo_api.Models
+namespace ASPNET_todo_api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
